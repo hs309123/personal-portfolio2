@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    
+}
+body{
+    background-color: rgb(220, 220, 255);
+    display: grid;
+    align-content: center;
+    
+}
+
+header{
+    background-color: rgb(240 240 255);
+    height: 90vh;
+    clip-path: polygon(0 0,100% 0,100% 100%,30% 95%,0 100%);
+    padding-bottom: 20vh;
+
+}
+.navbar{
+    justify-content: space-around;
+    background-color: rgb(32 30 56);
+    color: blanchedalmond;
+}
+
+header nav div img{
+    border-radius: 50%;
+    height: 7vh;
+    margin-right: 20px;
+    object-fit: contain;
+}
+h2 a{
+    text-decoration:none;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+h2 a:hover{
+    text-decoration: underline;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+    position: relative;
+
+    
+}
+.home div img{
+    width: 40vw;
+    object-fit:contain ;
+    border-radius: 50px;
+    
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.home .about{
+    padding-top: 14vh;
+    padding-left: 4vw;
+}
+.home .about h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 100;
+
+}
+.home .about h1 span{
+    color: rgb(144, 209, 240);
+    font-weight: 200;
+}
+.home .about h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 3000;
+
+}
+
+.home .about p{
+    line-height: 2.5vh;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+.btn{
+    padding:0.8rem 2rem;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    position: absolute;
+    background-color: rgb(207, 234, 243);
+    transition: 0.1s ease-in;
+}
+.btn2{
+    margin-left: 15vw;
+}
+.btn:hover{
+    font-size: 1.8vw;
+    cursor: pointer;
+    background-color: rgb(61, 103, 117);
+    color: ghostwhite;
+}
+
+.heading h1 span{
+    color: rgb(144, 209, 240);
+}
+.heading h1 {
+    padding-bottom: 1rem;
+}
+
+main section{
+    margin-top: 20vh;
+}
+main section hr{
+    width: 10vw;
+    margin: auto;
+    border: none;
+    border-top: 7px dotted;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80vw;
+    margin: auto;
+    grid-gap: 5vw;
+    grid-column-gap: 1vw;
+    padding-top: 7rem;
+
+    
+}
+.card div{
+    text-align: center;
+    background-color: rgb(240 240 255);
+    position: relative;
+    padding: 40px;
+    width: 12vw;
+    margin: auto;
+}
+.card div h2{
+    margin-bottom: 1rem;
+}
+.card div img{
+    position: absolute;
+    margin-left: -2.5rem;
+    margin-top: -4.5rem;
+    height: 4rem;
+    width: 5rem;
+}
+
+.skills{
+    background-color: rgb(240 240 255);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0 0,70% 10%,100% 0,100% 100%,0 100%);
+}
+.skills .skill-heading h3{
+    padding-bottom: 2rem;
+}
+.skills-section{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.skills-section .skill-div{
+    padding: 3vw;
+}
+.skills-section .first{
+    line-height: 1.5rem;
+    align-self: center;
+}
+.skills-section .first h2{
+    padding-bottom: 1vw;
+}
+.skills-section .second{
+    padding: 3rem;
+    position: relative;
+}
+.skills-section .second div{
+    padding-bottom: 3rem;
+    font-weight: 4000;
+}
+.skills-section .second div h3{
+    padding-bottom: 1rem;
+}
+.skills-section .second div hr{
+    width: 100%;
+    border:transparent 2px double;
+    height: 4px;
+    background-color: tomato;
+    margin-left: 0%;
+}
+.skills-section .second h3{
+    display: inline;
+}
+.skills-section .second .C{
+    width: 70%;
+}
+.skills-section .second .CP{
+    width: 30%;
+}
+.skills-section .second .HTML{
+    width: 85%;
+}
+.skills-section .second .CSS{
+    width: 75%;
+}
+.skills-section .second .JS{
+    width: 0%;
+}
+
+footer{
+    background-color: rgb(32 30 56);
+    color: blanchedalmond;
+    padding: 10vh;
+    text-align: center;
+    line-height: 1.5rem;
+    position: relative;
+}
+footer div{
+    width: 20vw;
+    margin: auto;
+}
+footer div h2{
+    padding-bottom: 25px;
+}
+footer div h3{
+    padding-bottom: 10px;
+}
+footer div p{
+    padding-bottom: 2rem;
+}
+footer div img{
+    height: 50px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* margin-top: -5rem; */
+}
+
+
+footer div a img:hover {
+    height: 3.2rem;
+    transition: .1s ease-in-out;
+    
+}
+@media (max-width: 1500px){
+    #card{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 10vh;
+        grid-column-gap: 0vw;
+        width: 70vw;
+    }
+}
+@media (max-width: 1300px){
+    #card{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 14vh;
+        grid-column-gap: 1vw
+    }
+    .home .about{
+        padding-left:10vw ;
+    }
+    .btn2{
+        margin-left: 18vw;
+}
+@media(max-width: 1050px ){
+    .btn{
+        font-size: 1.5vw;
+    }
+    .btn2{
+        margin-left: 18vw;
+    }
+    .home .about{
+        padding-top: 0vh;
+        padding-left:10vw ;
+    }
+    header{
+        height: 60vh;
+    }
+    footer div{
+        width: 50vw;
+    }
+    .card div{
+        width: 20vw;
+    }
+}
+
+@media (max-width: 800px){
+    *{
+        font-size: 4vw;
+    }
+    .btn{
+        font-size: 3.5vw;
+    }
+    #card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card div {
+        width: 50vw;
+    }
+    footer{
+        padding-top: 7vh;
+        padding-right: 0vw;
+        padding-left: 0vw;
+    }
+    footer div{
+        width: 80vw;
+    }
+    .skills-section .skill-div {
+        padding: 0vw;
+        padding-right: 1vw;
+
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar .flex{
+        padding-bottom: 3vh;
+    }
+    .home .about{
+        padding-top: 3vh;
+    }
+    .home div img{
+        width: 70vw;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .btn2{
+        margin-left: 40vw;
+    }
+    header{
+        height: 90vh;
+        padding-bottom:30vh ;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.2rem;
+}
